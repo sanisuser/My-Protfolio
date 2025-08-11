@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sanish Tamang - Web Developer</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div id="logo">
+      <a href="#home" class="logo-link">
+        <img src="images/logo.png" alt="Logo" class="logo">
+      </a>
+    </div>
+    <a href="cv.html" target="_blank" class="cv-btn">My CV</a>
+    <div id="menu">
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li class="dropdown-parent">
+            <a href="#contact">Contact</a>
+            <ul class="dropdown">
+              <li><a href="mailto:callmesanis@gmail.com">Email</a></li>
+              <li><a href="tel:+9779749410499">Phone</a></li>
+              <li><a href="#contact">Address</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="intro">
+      <div class="intro-text">
+        <h2>Hi,<br>I'm Web Developer<br>Sanish Tamang</h2>
+    <p>
+      A passionate web developer with expertise in creating dynamic and responsive websites.
+      My journey in web development began with a curiosity for how websites work, and over the years,
+      I have honed my skills in HTML, CSS, JavaScript, and various frameworks. I enjoy solving complex problems, collaborating with creative teams, and continuously learning new technologies to stay ahead in this ever-evolving field.<br>
+           Let's work together to bring your ideas to life and make an impact on the web!
+    </p>
+        <div class="buttons">
+          <a href="#about" class="learnmore">Learn More</a>
+          <a href="cv.html" class="cv-btn-secondary">View My CV</a>
+        </div>
+      </div>
+      <div class="intro-image">
+        <img src="images/profile.png" alt="Profile Photo">
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <h2>About Me</h2>
+      <h3>Developing With a Passion While Exploring The World.</h3>
+      <p><i>
+        Hello! I'm a creative and detail-oriented web designer with a passion for building visually appealing and user-friendly websites. I enjoy combining clean design with modern web standards to create smooth, responsive, and accessible experiences.
+      </i></p>
+      <p><i>
+        Currently pursuing my Bachelor in Computer Application (3rd Semester) at Ganeshman Singh Multiple Campus, I'm working on various projects to enhance my skills in web technologies.
+      </i></p>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+      <h2>My Portfolio</h2>
+      <div class="portfolio-slider">
+        <div class="portfolio-item">
+          <img src="images/portfolio.png" alt="Project 1">
+          <h3>Personal Portfolio</h3>
+          <p>Welcome to my portfolio website! This site showcases my journey and skills as a passionate web developer.</p>
+        </div>
+        <div class="portfolio-item">
+          <img src="images/e-commerce.jpg" alt="Project 2">
+          <h3>E-commerce Site</h3>
+          <p>E-commerce, short for electronic commerce, is the process of conducting business transactions online through websites or mobile apps. It includes activities like buying and selling products, booking services, and making online payments. E-commerce platforms allow businesses to operate beyond physical boundaries and provide customers with the flexibility to shop anytime and from anywhere. These platforms typically include features like product listings, shopping carts, secure checkout systems, and customer reviews. With the rise of digital payment systems, fast delivery services, and digital marketing, e-commerce has become an essential part of the modern economy. It benefits both businesses and customers by offering cost efficiency, convenience, and wider market reach.</p>
+        </div>
+        <div class="portfolio-item">
+          <img src="images/form-processing.png" alt="Project 3">
+          <h3>Form Processing</h3>
+          <p>Form processing is a fundamental part of web development that allows users to input and submit data through interactive fields on a webpage. It typically involves collecting user inputs such as name, email, password, and other details via HTML forms, and then handling this data using backend technologies like PHP, JavaScript, or databases. When a user submits a form, the data is validated (checked for correctness), processed (stored or acted upon), and often followed by feedback to the user (like a success message). Form processing is widely used in features like user registration, login systems, contact forms, feedback submissions, and online orders. It plays a vital role in dynamic websites by making them interactive and user-responsive.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <h2>What Services I'm Providing</h2>
+      <div class="service-list">
+        <div class="service-item">
+          <i class="fas fa-laptop-code"></i>
+          <h3>Web Design</h3>
+          <p>Creating visually appealing and user-friendly designs.</p>
+        </div>
+        <div class="service-item">
+          <i class="fas fa-code"></i>
+          <h3>Web Development</h3>
+          <p>Building robust and scalable web applications.</p>
+        </div>
+        <div class="service-item">
+          <i class="fas fa-search"></i>
+          <h3>SEO Optimization</h3>
+          <p>Improving website visibility and search engine rankings.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2>Get In Touch</h2>
+      <div class="contact-container">
+        <form class="contact-form" action="#" method="post">
+          <div class="form-group">
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+          </div>
+          <div class="form-group">
+            <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+          </div>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+        <div class="contact-info">
+          <h3>Contact Information</h3>
+          <p><i class="fas fa-envelope"></i> callmesanis@gmail.com</p>
+          <p><i class="fas fa-phone"></i> +977 9749410499</p>
+          <p><i class="fas fa-map-marker-alt"></i> Kalanki, Kathmandu, Nepal</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-row">
+      <div class="footer-social">
+        <a href="https://www.linkedin.com/in/sanishtmg/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+      </div>
+      <div class="footer-logo">
+        <img src="images/logo.png " alt="Logo" class="footer-logo-img">
+      </div>
+      <div class="footer-mail">
+        <a href="mailto:callmesanis@gmail.com" class="footer-email">callmesanis@gmail.com</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 Sanish Tamang. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
