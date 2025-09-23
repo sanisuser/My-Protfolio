@@ -7,118 +7,138 @@
   <link rel="stylesheet" href="cv.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
-<header class="cv-header">
-  <div class="profile-header">
-    <div class="profile-pic-container">
-      <img src="images/profile1.jpg" alt="Sanish Tamang" class="profile-pic">
-    </div>
-    <div class="header-text">
-      <h1>Sanish Tamang</h1>
-      <div class="contact-info">
-        <!-- Your existing contact info here -->
+<body class="overlay-active">
+  <div class="cv-container">
+    <header class="cv-header">
+      <div class="profile-header">
+        <div class="profile-pic-container">
+          <img src="images/profile1.jpg" alt="Sanish Tamang" class="profile-pic">
+        </div>
+        <div class="header-text">
+          <h1>Sanish Tamang</h1>
+          <div class="contact-info">
+            <p><i class="fas fa-envelope"></i> callmesanis@gmail.com</p>
+            <p><i class="fas fa-phone"></i> +977 9749410499</p>
+            <p><i class="fas fa-location-dot"></i> Kalanki, Kathmandu, Nepal</p>
+          </div>
+        </div>
       </div>
+    </header>
+
+    <div class="cv-content">
+      <section class="cv-section">
+        <h2>Education</h2>
+        <div class="cv-item">
+          <h3>Amar Jyoti Secondary School</h3>
+          <p class="subtitle">Secondary Level | 2011 - 2020 | Nagarjun-10, Kalanki</p>
+          <p>Cumulative GPA: 3.75/4.00</p>
+        </div>
+        <div class="cv-item">
+          <h3>Greenfield National Secondary School</h3>
+          <p class="subtitle">High School | Nagarjun-10, Kalanki</p>
+          <p>Cumulative GPA: 3.57/4.00</p>
+        </div>
+        <div class="cv-item">
+          <h3>Ganeshman Singh Multiple Campus</h3>
+          <p class="subtitle">Bachelor in Computer Application | Present</p>
+          <p>Continuing 3rd Semester</p>
+        </div>
+      </section>
+
+      <section class="cv-section">
+        <h2>Skills</h2>
+        <div class="skills-container">
+          <div class="skills-column">
+            <h3>Technical Skills</h3>
+            <ul>
+              <li>MS Office Package</li>
+              <li>Amadeus</li>
+              <li>IATA</li>
+              <li>SharePoint Management</li>
+            </ul>
+          </div>
+          <div class="skills-column">
+            <h3>Languages</h3>
+            <ul>
+              <li>English (Fluent)</li>
+              <li>Nepali (Native)</li>
+            </ul>
+          </div>
+          <div class="skills-column">
+            <h3>Other Skills</h3>
+            <ul>
+              <li>Strong Communication</li>
+              <li>Problem Solving</li>
+              <li>Team Collaboration</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="cv-section">
+        <h2>Experience</h2>
+        <div class="cv-item">
+          <h3>SkyNepal Travel & Tours Pvt. Ltd</h3>
+          <p class="subtitle">Sitapaila, KTM | 05/2023 - 12/2023</p>
+          <ul>
+            <li>Made tickets for Nepali and USA citizens traveling worldwide</li>
+            <li>Updated and maintained travel data</li>
+            <li>Resolved passenger issues and inquiries</li>
+          </ul>
+        </div>
+        <div class="cv-item">
+          <h3>MAW Engineering Pvt. Ltd</h3>
+          <p class="subtitle">Office Boy | Tripureshwor, KTM | 02/2023 - 04/2024</p>
+          <ul>
+            <li>Handled bank transactions (withdrawals and deposits)</li>
+            <li>Maintained office stationery stock</li>
+          </ul>
+        </div>
+        <div class="cv-item">
+          <h3>Sipradi Trading P. Ltd</h3>
+          <p class="subtitle">Junior Technical Consultant | Naikap, KTM | 04/2024 - Present</p>
+          <ul>
+            <li>Provided desktop and ERP support</li>
+            <li>Managed logistics operations</li>
+            <li>Oversaw SharePoint management</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="cv-section">
+        <h2>Interests</h2>
+        <div class="interests-container">
+          <div class="interest-item">
+            <i class="fas fa-mountain"></i>
+            <h3>Travelling & Hiking</h3>
+            <p>Pokhara, Jamacho Ghumba, Shivapuri National Park Peak</p>
+          </div>
+          <div class="interest-item">
+            <i class="fas fa-photo-video"></i>
+            <h3>Editing</h3>
+            <p>Capcut, Kinemaster, Canva, Photoshop</p>
+          </div>
+        </div>
+      </section>
+
+      <footer class="cv-footer">
+        <a href="index.html" class="back-to-portfolio">Back to Portfolio</a>
+      </footer>
     </div>
   </div>
-</header>
 
-    <section class="cv-section">
-      <h2>Education</h2>
-      <div class="cv-item">
-        <h3>Amar Jyoti Secondary School</h3>
-        <p class="subtitle">Secondary Level | 2011 - 2020 | Nagarjun-10, Kalanki</p>
-        <p>Cumulative GPA: 3.75/4.00</p>
+  <!-- Prank Overlay -->
+  <div class="cv-prank-overlay">
+    <div class="cv-prank-card">
+      <h2>Hire me to see my full potential</h2>
+      <p>This CV is blurred to keep the best parts exclusive. Let's work together!</p>
+      <div class="cv-prank-actions">
+        <a class="btn-primary" href="mailto:callmesanis@gmail.com?subject=Hiring%20Inquiry%20-%20Sanish%20Tamang&body=Hi%20Sanish,%20I'd%20like%20to%20discuss%20an%20opportunity.%20Please%20share%20your%20full%20CV.">Hire Me</a>
+        <a class="btn-secondary" href="index.html">Back to Portfolio</a>
       </div>
-      <div class="cv-item">
-        <h3>Greenfield National Secondary School</h3>
-        <p class="subtitle">High School | Nagarjun-10, Kalanki</p>
-        <p>Cumulative GPA: 3.57/4.00</p>
-      </div>
-      <div class="cv-item">
-        <h3>Ganeshman Singh Multiple Campus</h3>
-        <p class="subtitle">Bachelor in Computer Application | Present</p>
-        <p>Continuing 3rd Semester</p>
-      </div>
-    </section>
-
-    <section class="cv-section">
-      <h2>Skills</h2>
-      <div class="skills-container">
-        <div class="skills-column">
-          <h3>Technical Skills</h3>
-          <ul>
-            <li>MS Office Package</li>
-            <li>Amadeus</li>
-            <li>IATA</li>
-            <li>SharePoint Management</li>
-          </ul>
-        </div>
-        <div class="skills-column">
-          <h3>Languages</h3>
-          <ul>
-            <li>English (Fluent)</li>
-            <li>Nepali (Native)</li>
-          </ul>
-        </div>
-        <div class="skills-column">
-          <h3>Other Skills</h3>
-          <ul>
-            <li>Strong Communication</li>
-            <li>Problem Solving</li>
-            <li>Team Collaboration</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <section class="cv-section">
-      <h2>Experience</h2>
-      <div class="cv-item">
-        <h3>SkyNepal Travel & Tours Pvt. Ltd</h3>
-        <p class="subtitle">Sitapaila, KTM | 05/2023 - 12/2023</p>
-        <ul>
-          <li>Made tickets for Nepali and USA citizens traveling worldwide</li>
-          <li>Updated and maintained travel data</li>
-          <li>Resolved passenger issues and inquiries</li>
-        </ul>
-      </div>
-      <div class="cv-item">
-        <h3>MAW Engineering Pvt. Ltd</h3>
-        <p class="subtitle">Office Boy | Tripureshwor, KTM | 02/2023 - 04/2024</p>
-        <ul>
-          <li>Handled bank transactions (withdrawals and deposits)</li>
-          <li>Maintained office stationery stock</li>
-        </ul>
-      </div>
-      <div class="cv-item">
-        <h3>Sipradi Trading P. Ltd</h3>
-        <p class="subtitle">Junior Technical Consultant | Naikap, KTM | 04/2024 - Present</p>
-        <ul>
-          <li>Provided desktop and ERP support</li>
-          <li>Managed logistics operations</li>
-          <li>Oversaw SharePoint management</li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="cv-section">
-      <h2>Interests</h2>
-      <div class="interests-container">
-        <div class="interest-item">
-          <i class="fas fa-mountain"></i>
-          <h3>Travelling & Hiking</h3>
-          <p>Pokhara, Jamacho Ghumba, Shivapuri National Park Peak</p>
-        </div>
-        <div class="interest-item">
-          <i class="fas fa-photo-video"></i>
-          <h3>Editing</h3>
-          <p>Capcut, Kinemaster, Canva, Photoshop</p>
-        </div>
-      </div>
-    </section>
-
-    <footer class="cv-footer">
-      <a href="index.html" class="back-to-portfolio">Back to Portfolio</a>
-    </footer>
+      <p class="cv-prank-note">Already hired me? Reply to my email for the full version.</p>
+    </div>
   </div>
 </body>
 </html>
+
