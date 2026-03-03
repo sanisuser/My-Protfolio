@@ -69,8 +69,8 @@ function initTypewriter() {
     if (!typewriterElement) return;
     
     const roles = [
-        'Full Stack Developer',
-        'UI/UX Designer',
+        'Web App Developer',
+        'BCA Student',
         'Problem Solver',
         'Tech Enthusiast'
     ];
